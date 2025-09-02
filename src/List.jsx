@@ -15,7 +15,7 @@ export function List({ borderColor, importance, items, onToggle, removeItem }) {
         {importance}
       </h1>
       <div
-        className="bg-secondary-1 w-[26.1vw] h-[72.12vh] border-solid flex flex-col justify-content-center text-[2rem] border-5 p-2 text-primary overflow-y-auto"
+        className="bg-secondary-1 w-[26.1vw] h-[72.12vh] border-solid flex flex-col justify-content-center rounded-lg text-[2rem] border-5 p-2 text-primary overflow-y-auto"
         style={{ borderColor: `${borderColor}` }}
       >
         <ul className="space-y-2" id="checklist">

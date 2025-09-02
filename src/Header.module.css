@@ -17,6 +17,7 @@
     color: #2D2A32;
     background-color: #E5E7E6;
     border-width: 5px;
+    border-radius: 8px;
     border-style: solid;
     display: flex;
     justify-self: center;
